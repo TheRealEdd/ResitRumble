@@ -6,18 +6,90 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/0_TitleScreen.unity
+    guid: b012d2cd36323bb41849a510f42771cb
   - enabled: 1
+    path: Assets/Scenes/1_AnimalSelectionScreen.unity
+    guid: 05f221a4ad2b5cd4dae821fb714d6ed1
+  - enabled: 0
     path: Assets/SceneManagerTesting/Main.unity
     guid: e513459de98419344a0d668704280c1c
-  - enabled: 1
+  - enabled: 0
     path: Assets/SceneManagerTesting/AnimalChoice.unity
     guid: 2bf81c9221d7cb74a9f617b4ff86bca5
   - enabled: 1
-    path: Assets/SceneManagerTesting/BadgerCave.unity
-    guid: f0b1f030c31a1d64f95cbb705907ad4f
+    path: Assets/Scenes/2_IntroCaveScene.unity
+    guid: 91dfce29309285f4e8031980d90d34d6
   - enabled: 1
-    path: Assets/SceneManagerTesting/OutsideTheCave.unity
-    guid: 590fd2e2ae2a31345af3c86f0a3cd4aa
+    path: Assets/Scenes/3_BellaLeavingScene.unity
+    guid: 5e1d3e1ee0f561249a02ee8d5a866b7b
+  - enabled: 1
+    path: Assets/Scenes/4_WormMinigameScene.unity
+    guid: 43adc81191f30734e8a03814076925cf
+  - enabled: 1
+    path: Assets/Scenes/5_BellaSensingMushroomsScene.unity
+    guid: 2d1a483cfd89cce44a25ff57e2a035ec
+  - enabled: 1
+    path: Assets/Scenes/6_OtisOscarDaisyChoiceScene.unity
+    guid: e4389b32478dbf348b09dbb6ce2a9b37
+  - enabled: 1
+    path: Assets/Scenes/7_OtisAlcynaChoiceScene.unity
+    guid: d5175b00922fd134281428e88457b5ea
+  - enabled: 1
+    path: Assets/Scenes/8_OtisUnderwaterScene.unity
+    guid: f097d1e3444299a44a047d4c70d01212
+  - enabled: 1
+    path: Assets/Scenes/9_OtisTalkScene.unity
+    guid: b90a3bf3f72fc4f4d8fd0543cc6d176a
+  - enabled: 1
+    path: Assets/Scenes/10_ExplainFrogGameScene.unity
+    guid: 2022b35f07e480e4ea2cf6b384ff5613
+  - enabled: 1
+    path: Assets/Scenes/11_StartFrogGame.unity
+    guid: 161702622c6ac59469ec1dd1662db35c
+  - enabled: 1
+    path: Assets/Scenes/12_OtisHappyScene.unity
+    guid: 5d4578d7366fde540b83307033734f5e
+  - enabled: 1
+    path: Assets/Scenes/13_InspectDeersScene.unity
+    guid: 65be1a39d8bd336408d485b6201fae35
+  - enabled: 1
+    path: Assets/Scenes/14_TalkDeerScene.unity
+    guid: 246c43a72f998104f955feba4fff5284
+  - enabled: 1
+    path: Assets/Scenes/15_StartDifferencesGame.unity
+    guid: 89a5e1c9e3883144f9a4a957fdb4bd03
+  - enabled: 1
+    path: Assets/Scenes/16_DifferenceGame.unity
+    guid: 547965050c95d2a408f0c844e3a7131f
+  - enabled: 1
+    path: Assets/Scenes/17_DaisyPreferencesScene.unity
+    guid: cf46082131c7bbd4080eb5473d9d45e1
+  - enabled: 1
+    path: Assets/Scenes/18_OscarTalkScene.unity
+    guid: 548c040bd6ce57f4eb6d844e3a541abc
+  - enabled: 1
+    path: Assets/Scenes/19_OscarLeaveScene.unity
+    guid: 1fb526ebfdd511a4c85ba59d7dc3d800
+  - enabled: 1
+    path: Assets/Scenes/20_BlueFlowerScene.unity
+    guid: 30b7ac46c3450e74fb954bf9e24dfb32
+  - enabled: 1
+    path: Assets/Scenes/21_AlexaAppearsScene.unity
+    guid: 18b0261020b6d1a4d9ccba325cbe2149
+  - enabled: 1
+    path: Assets/Scenes/22_CaterpillarStory1Scene.unity
+    guid: 5a387ee7e26871048b1a725e65614a3e
+  - enabled: 1
+    path: Assets/Scenes/23_CaterpillarStory2Scene.unity
+    guid: c03028451a58e0b4686414c4aafad446
+  - enabled: 1
+    path: Assets/Scenes/24_AlexaAsksHelpScene.unity
+    guid: 9106d5f4c07bd77418e1d2192f8e11cf
+  - enabled: 1
+    path: Assets/Scenes/25_AlexaGameScene.unity
+    guid: 50781789f4062194a923b74ae9f38a1d
+  - enabled: 1
+    path: Assets/Scenes/26_AlexaSisterScene.unity
+    guid: 9324e839a05d3e140a742af4b418f315
   m_configObjects: {}
