@@ -92,4 +92,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/26_AlexaSisterScene.unity
     guid: 9324e839a05d3e140a742af4b418f315
+  - enabled: 1
+    path: Assets/Scenes/27_EndingScene.unity
+    guid: 2a6f751698d3c8d40a9a33b8d981763b
   m_configObjects: {}
