@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class worm : MonoBehaviour
+public class NegItemBehaviour : MonoBehaviour
 {
     GameObject scoredisplayer;
-    public int wormcounter;
+    public int wormnum;
     public float xcoo;
     public float ycoo;
     public Vector2 coordinates;
@@ -13,6 +13,7 @@ public class worm : MonoBehaviour
     {
         scoredisplayer = GameObject.Find("Text");
     }
+
     void Update()
     {
 
@@ -21,12 +22,10 @@ public class worm : MonoBehaviour
 
     void OnMouseDown()
     {
-        scoredisplayer.GetComponent<ScoreDisplayer>().wormcounter++ ;
-        xcoo = Random.Range(-3, 3);
-        ycoo = Random.Range(-3, 3);
+        scoredisplayer.GetComponent<ScoreDisplayer>().wormcounter--;
+        xcoo = Random.Range(-2, 2);
+        ycoo = Random.Range(-2, 2);
         coordinates.Set(xcoo, ycoo);
         transform.position = coordinates;
     }
-
 }
-
