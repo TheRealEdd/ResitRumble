@@ -15,6 +15,11 @@ public class ScoreDisplayer : MonoBehaviour
     void Update()
     {
         this.GetComponent<UnityEngine.UI.Text>().text = wormcounter.ToString();
+        if (wormcounter == 5)
+        {
+            this.GetComponent<UnityEngine.UI.Text>().text = "You have enough worms, you won!";
+        }
+        
 
     }
 }
