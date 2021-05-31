@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class worm : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class worm : MonoBehaviour
         if (scoredisplayer.GetComponent<ScoreDisplayer>().wormcounter == 5) 
         {
             Destroy(this);
+            SceneManager.LoadScene (sceneBuildIndex:5);
         }
 
     }
