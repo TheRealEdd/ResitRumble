@@ -15,7 +15,10 @@ public class worm : MonoBehaviour
     }
     void Update()
     {
-
+        if (scoredisplayer.GetComponent<ScoreDisplayer>().wormcounter == 5) 
+        {
+            Destroy(this);
+        }
 
     }
 
