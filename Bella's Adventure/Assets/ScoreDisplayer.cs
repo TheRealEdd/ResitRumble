@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScoreDisplayer : MonoBehaviour
 {
-    GameObject scoredisplayer;
+  
     public int wormcounter;
     // Start is called before the first frame update
     void Start()

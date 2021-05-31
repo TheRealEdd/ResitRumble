@@ -23,8 +23,8 @@ public class NegItemBehaviour : MonoBehaviour
     void OnMouseDown()
     {
         scoredisplayer.GetComponent<ScoreDisplayer>().wormcounter--;
-        xcoo = Random.Range(-2, 2);
-        ycoo = Random.Range(-2, 2);
+        xcoo = Random.Range(-3, 3);
+        ycoo = Random.Range(-3, 3);
         coordinates.Set(xcoo, ycoo);
         transform.position = coordinates;
     }
