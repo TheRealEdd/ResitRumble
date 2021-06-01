@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class worm : MonoBehaviour
+public class NegItemBehaviour : MonoBehaviour
 {
     GameObject scoredisplayer;
-    public int wormcounter;
+    public int wormnum;
     public float xcoo;
     public float ycoo;
     public Vector2 coordinates;
@@ -14,24 +13,22 @@ public class worm : MonoBehaviour
     {
         scoredisplayer = GameObject.Find("Text");
     }
+
     void Update()
     {
-        if (scoredisplayer.GetComponent<ScoreDisplayer>().wormcounter == 5) 
+        if (scoredisplayer.GetComponent<ScoreDisplayer>().wormcounter == 5)
         {
             Destroy(this);
-            SceneManager.LoadScene (sceneBuildIndex:5);
         }
 
     }
 
     void OnMouseDown()
     {
-        scoredisplayer.GetComponent<ScoreDisplayer>().wormcounter++ ;
+        scoredisplayer.GetComponent<ScoreDisplayer>().wormcounter--;
         xcoo = Random.Range(-3, 3);
         ycoo = Random.Range(-3, 3);
         coordinates.Set(xcoo, ycoo);
         transform.position = coordinates;
     }
-
 }
-

@@ -95,4 +95,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/27_EndingScene.unity
     guid: 2a6f751698d3c8d40a9a33b8d981763b
+  - enabled: 1
+    path: Assets/Scenes/worm minigame.unity
+    guid: 74ee27ca8e93243428874aa1129210fd
   m_configObjects: {}
