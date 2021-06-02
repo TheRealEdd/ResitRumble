@@ -11,12 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1_AnimalSelectionScreen.unity
     guid: 05f221a4ad2b5cd4dae821fb714d6ed1
-  - enabled: 0
-    path: Assets/SceneManagerTesting/Main.unity
-    guid: e513459de98419344a0d668704280c1c
-  - enabled: 0
-    path: Assets/SceneManagerTesting/AnimalChoice.unity
-    guid: 2bf81c9221d7cb74a9f617b4ff86bca5
   - enabled: 1
     path: Assets/Scenes/2_IntroCaveScene.unity
     guid: 91dfce29309285f4e8031980d90d34d6
