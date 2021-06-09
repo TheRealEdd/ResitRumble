@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class frogscoredisplayer : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class frogscoredisplayer : MonoBehaviour
         if (frogcounter == 10)
         {
             this.GetComponent<UnityEngine.UI.Text>().text = "You have enough worms, you won!";
+            
+            SceneManager.LoadScene (sceneBuildIndex:12);
         }
 
 
