@@ -718,7 +718,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 312, y: 150.39}
+  m_AnchoredPosition: {x: 307.2, y: 131.4}
   m_SizeDelta: {x: 160, y: 39.74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1193859016
@@ -776,6 +776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wormcounter: 0
+  frogcounter: 0
 --- !u!1 &1369115499 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1975999101957797790, guid: 774b9796f07d1a64aa73ca4c61bf612b, type: 3}
